@@ -393,8 +393,10 @@ footer{
     color:#000;
     /* background:#faeee7; */
     background:#fef6e4;
-    padding:3rem 0;
+    padding:2rem 0 1rem 0;
     font-size:16px;
+    /* background:#f3d2c1; */
+    color:#172c66;
 }
 
 
@@ -408,17 +410,21 @@ footer{
     position:fixed;
     bottom:1rem;
     right:1rem;
+   
+    
 }
 
 .hero-container #up-arrow img{
     width:100%;
     max-width:40px;
     
+    
 }
 
 .hero-container #up-arrow img:hover{
     border-radius:50%;
-    box-shadow:1px 3px 20px #fa70fc;
+    box-shadow:1px 3px 20px #f582ae;
+    
 }
 
 
@@ -435,6 +441,10 @@ footer{
 .fa-github,.fa-linkedin-in,.fa-envelope,.fa-phone,.fa-twitter{
     color:#172c66;
     transition:all .2s ease;
+}
+
+.fa-github, .fa-linkedin-in, .fa-twitter{
+    font-size:1.5rem;
 }
 
 .fa-github:hover{

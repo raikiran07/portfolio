@@ -22,10 +22,10 @@ console.log(hamburger)
 
 
 //auto type
-const type = new Typed(".tech-stack",{
-	strings:["javascript","java","git and github"],
-	typeSpeed:100,
-	backspeed:200,
-	loop:true
-})
+// const type = new Typed(".tech-stack",{
+// 	strings:["javascript","java","git and github"],
+// 	typeSpeed:100,
+// 	backspeed:200,
+// 	loop:true
+// })
 
